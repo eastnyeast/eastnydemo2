@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East NY Express</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e2f;
+            color: #ffffff;
+        }
+        header {
+            background: linear-gradient(90deg, #4a148c, #7b1fa2);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #e0e0e0;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #b39ddb;
+        }
+        nav {
+            background-color: #4a148c;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            color: #f48fb1;
+        }
+        section p {
+            font-size: 1.1em;
+            color: #c5cae9;
+        }
+        .cta {
+            margin-top: 20px;
+        }
+        .cta a {
+            background-color: #7b1fa2;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta a:hover {
+            background-color: #ab47bc;
+        }
+        footer {
+            background-color: #2c2c3c;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            color: #bdbdbd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>East NY Express</h1>
+        <p>Fast. Reliable. Eco-Friendly. Rooted in Community and Family.</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to East NY Express! Founded by Darius, a proud Black gay entrepreneur and the youngest of the Scott family grandchildren, our mission is rooted in family values, community connections, and sustainable growth. Darius believes in putting family first and extending that love to support the businesses and dreams of his East New York community.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We specialize in fast and eco-friendly deliveries using mopeds to reduce environmental impact. Whether you're a local coffee shop, boutique, or restaurant, we've got your delivery needs covered!</p>
+        <div class="cta">
+            <a href="#contact">Get Started</a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or ready to work with us? Reach out today!</p>
+        <p>Email: <a href="mailto:info@eastnyexpress.com" style="color: #ffab91;">info@eastnyexpress.com</a></p>
+        <p>Phone: <a href="tel:+11234567890" style="color: #ffab91;">+1 (123) 456-7890</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 East NY Express. Built with pride, family, and purpose in East New York.</p>
+    </footer>
+</body>
+</html>
